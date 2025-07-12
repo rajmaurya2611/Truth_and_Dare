@@ -1,0 +1,16 @@
+/* src/components/Feedback.css */
+.ant-carousel .slick-prev:before,
+.ant-carousel .slick-next:before {
+  color: #000 !important;
+}
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  /* in case they render as icons instead of pseudo-elements */
+  color: #000 !important;
+}
+
+.ant-carousel .slick-prev .anticon,
+.ant-carousel .slick-next .anticon {
+  color: #000 !important;
+}

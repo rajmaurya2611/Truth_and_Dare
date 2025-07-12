@@ -1,0 +1,33 @@
+/* overrides.css */
+
+.sidebar-menu .ant-menu-item,
+.sidebar-menu .ant-menu-submenu-title {
+  /* 1) Allow wrapping onto multiple lines */
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+
+  /* 2) Let the cell grow vertically (no fixed height) */
+  height: auto !important;
+  line-height: 1.4 !important;
+
+  /* 3) Add extra vertical padding so multi-line text is readable */
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+
+  /* 4) Remove any overflow/ellipsis rules AntD puts in by default */
+  text-overflow: clip !important;
+}
+
+
+/* insaver.css */
+
+/* 1. Make the entire app use Montserrat by default: */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* 2. If you only want Collapse to inherit Montserrat (over AntD’s default), do this: */
+.ant-collapse,
+.ant-collapse * {
+  font-family: 'Montserrat', sans-serif !important;
+}
