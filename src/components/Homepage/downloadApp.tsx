@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import { Row, Col } from 'antd';
-import LeftImage from '../../assets/Group.png';
-import RightTopImage from '../../assets/image 4 qr.png';
+import LeftImage from '../../assets/Mobile_mockup.png';
+import RightTopImage from '../../assets/qr.png';
 import defaultBadge from "../../assets/google-play-black.svg";
 import hoverBadge from "../../assets/google-play-white.svg";
 
 const playstoreLink =
   "https://play.google.com/store/apps/details?id=com.rcubedigitalstudio.truthanddare";
 
-const DownlaodApp: React.FC = () => {
+const DownloadApp: React.FC = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -19,29 +19,25 @@ const DownlaodApp: React.FC = () => {
       </h2>
       <h3 className="text-center text-xl sm:text-2xl md:text-3xl font-montserrat font-medium mb-12">
         <span className="font-semibold text-[#435268]">
-          Get the Ultimate AKTU Companion App
+          Unlock endless laughter and memories with our app!
         </span>
       </h3>
 
       {/* Two-column grid: full-width on xs, side-by-side on sm+ */}
-      <Row gutter={[16, 24]}>
+      <Row gutter={[16, 24]} justify="space-between">
         {/* Left image */}
-        <Col xs={24} sm={12}>
+        <Col xs={24} sm={12} className="flex justify-end">
           <img
             src={LeftImage}
             alt="App preview"
-            className="w-full h-auto transform transition-transform duration-200 hover:scale-110"
+            className="w-3/4 sm:w-5/6 md:w-3/6 h-auto transform transition-transform duration-200 hover:scale-110"
           />
         </Col>
 
         {/* Right column */}
-        <Col
-          xs={24}
-          sm={12}
-          className="flex flex-col justify-center items-center"
-        >
+        <Col xs={24} sm={12} className="flex flex-col items-start justify-center">
           {/* Top image */}
-          <div className="w-3/4 sm:w-2/3 md:w-1/2 lg:w-full  flex flex-col justify-center items-center ">
+          <div className="w-3/4 sm:w-2/3 md:w-1/2 lg:w-full flex justify-start items-center">
             <img
               src={RightTopImage}
               alt="QR code"
@@ -74,4 +70,4 @@ const DownlaodApp: React.FC = () => {
   );
 };
 
-export default DownlaodApp;
+export default DownloadApp;

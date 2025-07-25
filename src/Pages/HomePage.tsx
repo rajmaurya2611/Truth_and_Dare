@@ -17,9 +17,9 @@ const Homepage: React.FC = () => {
     <div className="min-h-screen bg-gray-50">
       <HeaderComponent />
       <FirstComponent />
-      <AppFeatures/>
+      {/* <AppFeatures/> */}
        <Feedback />
-       <DownlaodApp/>
+       {/* <DownlaodApp/> */}
        <Footer/>
     </div>
   );

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import landingImage from "../../assets/Group 30.png"; // Replace with your actual image path
+import landingImage from "../../assets/Mobile_mockup.png"; // Replace with your actual image path
 import defaultBadge from "../../assets/google-play-black.svg";
 import hoverBadge from "../../assets/google-play-white.svg";
 
@@ -15,12 +15,12 @@ const FirstComponent: React.FC = () => {
         {/* Left: Text Section */}
         <div className="w-full md:w-1/2 text-center md:text-left space-y-4 sm:space-y-6">
           <h1 className="text-2xl sm:text-3xl md:text-5xl font-normal text-[#006AFF] leading-snug">
-            Your One-Stop Solution for
+            
             <br />
-            <span className="font-semibold">All AKTU Resources</span>
+            <span className="font-semibold">Ultimate Truth and Dare</span>
           </h1>
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-[#ACB25C]">
-            Your Ultimate Engineering Companion!
+          <h2 className="text-lg sm:text-2xl md:text-3xl pt-0 mt-0 font-semibold text-[#ACB25C]">
+            Infinite Question : Endless Laughter!
           </h2>
 
           <div className="mt-4 sm:mt-6">
@@ -43,7 +43,7 @@ const FirstComponent: React.FC = () => {
         </div>
 
         {/* Right: Image Section */}
-        <div className="w-full md:w-3/4 mb-8  md:mb-0 flex justify-center">
+        <div className="w-full md:w-2/6 mb-8  md:mb-0 flex justify-center">
           <img
             src={landingImage}
             alt="Landing Illustration"
