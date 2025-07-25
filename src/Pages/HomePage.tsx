@@ -1,9 +1,9 @@
 import React from "react";
 import FirstComponent from "../components/Homepage/FirstComponent";
 import HeaderComponent from "../components/Homepage/header";
-import AppFeatures from "../components/Homepage/AppProvides";
+// import AppFeatures from "../components/Homepage/AppProvides";
 import Feedback from "../components/Homepage/feedback";
-import DownlaodApp from "../components/Homepage/downloadApp";
+//import DownlaodApp from "../components/Homepage/downloadApp";
 import Footer from "../components/Homepage/footer";
 
 
