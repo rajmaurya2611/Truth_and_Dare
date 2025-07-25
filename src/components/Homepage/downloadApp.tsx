@@ -6,7 +6,7 @@ import defaultBadge from "../../assets/google-play-black.svg";
 import hoverBadge from "../../assets/google-play-white.svg";
 
 const playstoreLink =
-  "https://play.google.com/store/apps/details?id=com.bestofluck.engineersataktu";
+  "https://play.google.com/store/apps/details?id=com.rcubedigitalstudio.truthanddare";
 
 const DownlaodApp: React.FC = () => {
   const [isHovered, setIsHovered] = useState(false);

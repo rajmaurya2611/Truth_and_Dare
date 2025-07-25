@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Layout, Menu, theme } from "antd";
 import type { MenuProps } from "antd";
-import Logo from "../assets/app_logo.png";
+import Logo from "../assets/main logo-01.png";
 import { Link } from "react-router-dom";
 import "../components/PrivacyPolicy/privacyPolicy.css";
 
@@ -89,12 +89,12 @@ const PrivacyPolicy: React.FC = () => {
           >
             <img
               src={Logo}
-              alt="Spin & Dare Logo"
+              alt="Ultimate Truth and Dare Logo"
               className="h-8 sm:h-10 w-auto"
               loading="lazy"
             />
             <h1 className="ml-4 text-xl sm:text-xl font-semibold text-[#4A5BFD]">
-              Spin & Dare
+              Ultimate Truth and Dare
             </h1>
           </Link>
         </div>
@@ -148,11 +148,11 @@ const PrivacyPolicy: React.FC = () => {
               {/* Introduction */}
               <section id="introduction" className="scroll-mt-8">
                 <h1 className="text-3xl font-bold mb-2">
-                  Privacy Policy for Spin & Dare
+                  Privacy Policy for Ultimate Truth and Dare
                 </h1>
                 <p className="text-gray-600 mb-6">Last updated: July 2025</p>
                 <p className="leading-relaxed mb-6">
-                  Spin & Dare (“we,” “us,” “our”) respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our Android app, available on Google Play (“App”). By installing or using the App, you agree to this policy.
+                  Ultimate Truth and Dare (“we,” “us,” “our”) respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our Android app, available on Google Play (“App”). By installing or using the App, you agree to this policy.
                 </p>
               </section>
 

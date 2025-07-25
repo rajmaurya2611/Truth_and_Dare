@@ -1,5 +1,5 @@
 import React from 'react';
-import EAALogo from "../../assets/app_logo.png"; // Adjust the path as necessary
+import Logo from "../../assets/main logo-01.png"; // Adjust the path as necessary
 import { Link} from "react-router-dom";
 
 /**
@@ -22,13 +22,13 @@ const HeaderComponent: React.FC = () => {
           className="flex items-center"
         >
           <img
-            src={EAALogo}
-            alt="Engineers at AKTU Logo"
+            src={Logo}
+            alt="Ultimate Truth and Dare Logo"
             className="h-8 sm:h-10 w-auto"
             loading="lazy"
           />
           <h1 className="ml-4 text-xl sm:text-xl font-semibold text-[#4A5BFD]">
-            Engineers at AKTU
+            Ultimate Truth and Dare
           </h1>
         </Link>
       </div>
